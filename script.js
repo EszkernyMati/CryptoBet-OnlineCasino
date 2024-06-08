@@ -1,5 +1,6 @@
-document.getElementById('menuButton').addEventListener('click', function() 
-{
-    const sidebar = document.getElementById('sidebar');
+const menuButton = document.getElementById('menuButton');
+const sidebar = document.getElementById('sidebar');
+
+menuButton.addEventListener('click', () => {
     sidebar.classList.toggle('show');
 });
